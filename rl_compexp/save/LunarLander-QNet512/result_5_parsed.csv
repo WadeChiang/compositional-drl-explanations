@@ -1,0 +1,130 @@
+neuron,iou,feature_length,best lab,w_nothing,w_left,w_main,w_right
+210,1.0,2,(V_x High OR V_x Low),0.2920871,0.2805958,0.3613438,0.2189224
+411,0.9999,2,(V_x High OR V_x Low),0.47847337,0.4547682,0.50552785,0.36282632
+386,0.9998,2,(V_x High OR V_x Low),0.4036836,0.37702566,0.47783008,0.43018112
+217,0.9998,2,(V_x High OR V_x Low),0.5604983,0.48118544,0.6091345,0.49978408
+29,0.9997,2,(V_x High OR V_x Low),0.47696015,0.44571123,0.51775914,0.34288982
+82,0.9997,2,(V_x High OR V_x Low),0.45655945,0.44509014,0.523944,0.4789688
+7,0.9996,2,(V_x High OR V_x Low),0.4447225,0.44249412,0.43690914,0.41977245
+476,0.9982,2,(V_x High OR V_x Low),0.46342978,0.53343487,0.41721925,0.4892876
+31,0.996,2,(V_x High OR V_x Low),0.41675666,0.39579868,0.51394564,0.518882
+463,0.9876,2,(V_x High OR V_x Low),0.3487535,0.53943497,0.38593405,0.38709453
+236,0.9846,2,(V_x High OR V_x Low),0.5604166,0.5971528,0.45274615,0.56351435
+405,0.9817,2,(V_x High OR V_x Low),0.3943812,0.30562147,0.47310182,0.40157107
+122,0.9766,2,(V_x High OR V_x Low),0.13815494,0.12266462,0.18393837,0.08222898
+199,0.9661,2,(V_x High OR V_x Low),0.5763887,0.62118345,0.62777716,0.5861435
+84,0.9592,2,(V_x High OR V_x Low),0.48385644,0.5225245,0.5493529,0.49241337
+310,0.9512,2,(Angle Near 0 OR Large Angle),0.18484344,0.09818184,0.2890641,0.24090128
+256,0.9438729874776386,6,((((Angle Near 0 OR Large Angle) AND (NOT Left Leg reach ground)) OR Angular Velocity High) OR V_x High),0.41617432,0.44171748,0.23835364,0.2984923
+431,0.9422,2,(V_x High OR V_x Low),0.5038525,0.41593695,0.43143877,0.47893158
+492,0.9394501418284966,6,((((NOT Right Leg reach ground) AND (V_x High OR V_x Low)) OR Angular Velocity High) OR Large Angle),0.59134376,0.51293427,0.37078553,0.53313756
+176,0.9384,2,(V_x High OR V_x Low),0.5575045,0.5013933,0.6318263,0.5517467
+144,0.9245708557824834,7,((((Angle Near 0 OR Angular Velocity Low) AND (NOT Left Leg reach ground)) OR V_x High) AND (NOT Right Leg reach ground)),-0.27948156,-0.2894435,-0.09304239,-0.27325585
+299,0.9199617727870028,6,((((Angle Near 0 OR Angular Velocity Low) AND (NOT Left Leg reach ground)) OR V_x High) OR Y Coord Far From Ground),-0.21699475,-0.30997735,-0.09754005,-0.32547626
+334,0.9111066113192264,5,((((Angular Velocity Low OR X Coord In Center) OR Angle Near 0) OR Y Coord Far From Ground) OR V_x High),0.8530262,0.89899176,0.72025466,0.93759096
+261,0.9052251529435362,4,(((Angular Velocity Low OR V_x Low) OR X Coord In Center) OR Y Coord Far From Ground),0.62330043,0.63492054,0.63211936,0.68745625
+290,0.8900100908173562,7,(((((NOT Right Leg reach ground) AND Angle Near 0) OR Y Coord Far From Ground) AND (NOT Left Leg reach ground)) OR X Coord Outside Wider Center),-0.30130598,-0.3331936,-0.24744532,-0.33336785
+204,0.8884834174090372,5,(((NOT Left Leg reach ground) AND (V_x High OR V_x Low)) OR V_y Upward),0.5775472,0.60095626,0.6111042,0.7055858
+214,0.8778625954198473,3,((V_x Low OR Y Coord Near Ground) OR Large Angle),0.5732771,0.5629133,0.76394707,0.64714944
+97,0.8759884974838246,7,(((((NOT Left Leg reach ground) AND V_x Low) OR Y Coord Far From Ground) OR V_y High) AND (NOT Left Leg reach ground)),0.729483,0.76828885,0.57372034,0.6399049
+410,0.8640698609674825,5,(((NOT X Coord Outside Wider Center) AND (V_y High OR Y Coord Near Ground)) OR V_y High),0.26727256,0.35214671,0.66169536,0.4469946
+200,0.8612434194033592,7,((((Angle Near 0 OR Angular Velocity Low) AND (NOT Left Leg reach ground)) AND (NOT Right Leg reach ground)) OR V_x High),-0.20673753,-0.23218621,-0.15467297,-0.2202722
+340,0.8416632942128692,5,((((Angular Velocity Low OR X Coord In Center) OR Y Coord Far From Ground) OR Angle Near 0) OR V_x High),0.7745259,0.89812034,0.6288882,0.90023667
+120,0.8307672568642546,5,(((NOT Left Leg reach ground) AND (V_y High OR V_y Low)) OR Y Coord Far From Ground),-0.35954407,-0.41185686,-0.816708,-0.4170893
+402,0.8099290780141843,1,V_y High,-0.20439868,-0.36175945,-0.09601429,-0.27079728
+127,0.7789106866288075,4,(((NOT Right Leg reach ground) AND Angle Near 0) OR Y Coord Far From Ground),-0.25691944,-0.2278984,-0.604154,-0.541347
+212,0.7763611302549965,6,((((Angular Velocity Low OR Y Coord Near Ground) AND (NOT Left Leg reach ground)) OR Large Angle) OR X Coord Outside Wider Center),-0.41647798,-0.446507,-0.545147,-0.4303282
+70,0.7667318026380069,7,(((((NOT Left Leg reach ground) AND V_x Low) OR Y Coord Far From Ground) OR V_y High) AND (NOT Left Leg reach ground)),-0.50050986,-0.6388979,-0.4774244,-0.49374315
+175,0.7565771990433166,4,(((NOT Left Leg reach ground) AND Angular Velocity Low) OR Y Coord Far From Ground),-0.5137402,-0.5760321,-0.62441295,-0.01432627
+215,0.7543417738300411,8,(((((NOT Left Leg reach ground) AND V_y Low) OR V_x High) AND (NOT Right Leg reach ground)) AND (NOT V_y Upward)),-0.20281982,-0.23595083,-0.21684098,-0.33179066
+49,0.7531305903398927,7,(((((NOT Left Leg reach ground) AND V_y Low) AND (NOT Right Leg reach ground)) OR X Coord Outside Wider Center) AND V_y Low),-0.46274108,-0.22187875,-0.24462505,-0.38821846
+187,0.7451368876080692,5,((((X Coord In Center AND Y Coord Near Ground) AND Angle Near 0) OR Left Leg reach ground) OR Right Leg reach ground),-0.0009386942,-0.13909678,-0.99992913,0.0056446004
+344,0.7358757062146892,5,((((NOT Left Leg reach ground) AND Y Coord Near Ground) OR Large Angle) OR X Coord Outside Wider Center),-0.3940274,-0.31997877,-0.52827847,-0.28567436
+360,0.7226708448836929,5,(((Angle Near 0 OR Angular Velocity Low) AND (NOT Left Leg reach ground)) OR Y Coord Far From Ground),-0.46941578,-0.44980335,-0.5255775,-0.7039879
+285,0.7129502963976289,5,(((NOT V_y Upward) AND (V_y High OR Y Coord Far From Ground)) AND Angular Velocity Low),0.75312096,0.6112994,0.6352163,0.5750077
+265,0.7080428954423592,3,((Left Leg reach ground OR V_y Upward) OR Right Leg reach ground),0.39821795,0.254459,-0.19091122,0.38783622
+312,0.6949309978768577,7,(((((NOT Right Leg reach ground) AND V_y Low) OR Y Coord Far From Ground) AND (NOT Left Leg reach ground)) OR X Coord Outside Wider Center),-0.22162789,-0.26085168,-0.19220126,-0.23034413
+3,0.6920042482172659,7,((((NOT Right Leg reach ground) AND Angle Near 0) AND (NOT V_y Upward)) AND (NOT Left Leg reach ground)),-0.28884125,-0.25870976,-0.22055072,-0.24930754
+330,0.6826353637901861,4,(((Angle Near 0 OR Left Leg reach ground) OR Angular Velocity High) OR V_y Upward),-0.33406675,-0.08531357,-0.366446,-0.053066548
+225,0.6818519068110995,5,((((NOT V_y High) AND Y Coord Near Ground) AND V_x Low) OR V_y Upward),0.04703513,0.043915275,-0.45468402,-0.3031213
+4,0.6812136325852036,5,(((Left Leg reach ground OR Right Leg reach ground) AND (NOT X Coord Outside Wider Center)) OR Right Leg reach ground),-0.36536613,-0.56858224,-0.74420196,-0.3258975
+216,0.6808296668761785,7,(((((NOT Left Leg reach ground) AND V_x Low) OR Y Coord Far From Ground) AND (NOT Right Leg reach ground)) OR V_y High),-0.19182487,-0.17774463,-0.31803766,-0.14966053
+9,0.6703969594594594,2,(V_y Low OR V_y Upward),0.012383926,0.033513688,-0.14993136,-0.2754067
+356,0.662463976945245,3,((Angle Near 0 AND V_y High) AND Angular Velocity Low),-0.23706132,-0.24805942,-0.36952418,-0.281785
+22,0.6617016935319323,4,((NOT V_y Upward) AND (V_y High OR Y Coord Far From Ground)),0.63722134,0.7416337,0.5604173,0.6980766
+323,0.6522206303724928,6,((((V_y High OR Y Coord Far From Ground) OR V_x High) OR Large Angle) AND (NOT Left Leg reach ground)),-0.3070533,-0.20474394,-0.16804208,-0.2996649
+67,0.6503952295104701,6,(((((NOT Right Leg reach ground) AND V_y Low) OR Y Coord Far From Ground) AND Angle Near 0) OR X Coord Outside Wider Center),-0.33973482,-0.33569327,-0.19340181,-0.2927854
+151,0.6475988700564972,5,(((Angular Velocity Low AND Left Leg reach ground) AND V_x Low) AND (NOT X Coord Outside Wider Center)),-0.627602,-0.24935374,0.05414158,-1.0225246
+91,0.6456338845372788,8,(((((NOT Left Leg reach ground) AND Angular Velocity Low) AND (NOT V_y Upward)) AND (NOT Right Leg reach ground)) OR Y Coord Far From Ground),-0.42949176,-0.2777507,-0.36649483,-0.22136185
+218,0.6329787234042553,3,((NOT Right Leg reach ground) AND Angle Near 0),-0.24249469,-0.22168563,-0.6163312,-0.08436692
+58,0.6306212633220691,7,(((((NOT Right Leg reach ground) AND V_y Low) OR V_x High) AND (NOT V_y Upward)) OR X Coord Outside Wider Center),-0.27483976,-0.22561486,-0.19484203,-0.23682304
+238,0.6303620322482507,7,(((((NOT Right Leg reach ground) AND V_y Low) AND Angle Near 0) OR V_y High) AND (NOT Left Leg reach ground)),-0.35974893,-0.1569357,-0.46237844,-0.23567858
+363,0.6299040976460332,5,((((V_y High OR Y Coord Far From Ground) OR X Coord Outside Wider Center) AND Angle Near 0) OR Y Coord Far From Ground),-0.14575753,-0.25878707,-0.18894798,-0.31987363
+362,0.629435718440954,8,(((((NOT Left Leg reach ground) AND Angular Velocity Low) AND (NOT V_y Upward)) OR V_x High) AND (NOT V_y Upward)),-0.19841053,-0.21779253,-0.26103687,-0.27147552
+134,0.6255687655951857,8,(((((NOT Left Leg reach ground) AND Angular Velocity Low) AND (NOT V_y Upward)) OR V_x High) AND (NOT V_y Upward)),-0.23087694,-0.19662797,-0.30795407,-0.27340105
+373,0.6149849145155883,8,(((((NOT Right Leg reach ground) AND Angle Near 0) AND (NOT V_y Upward)) AND Angular Velocity Low) AND (NOT Left Leg reach ground)),-0.32700145,-0.2267519,-0.26059058,-0.26373777
+152,0.6125107533489,7,((((Angular Velocity Low OR X Coord In Center) AND (NOT Left Leg reach ground)) OR Y Coord Far From Ground) AND (NOT Right Leg reach ground)),-0.3929723,-0.30710232,-0.27968594,-0.19664192
+101,0.6115254237288136,7,(((((NOT Right Leg reach ground) AND Angle Near 0) AND (NOT V_y Upward)) OR V_x High) OR X Coord Outside Wider Center),-0.2789896,-0.2012133,-0.21010019,-0.31337318
+163,0.6024628986422482,5,(((Right Leg reach ground AND X Coord In Center) OR V_y Upward) AND (NOT Y Coord Far From Ground)),0.011315806,-0.27628633,-0.38045806,0.06968018
+427,0.5974979149291076,6,(((((NOT Right Leg reach ground) AND Y Coord Near Ground) OR Large Angle) OR X Coord Outside Wider Center) AND V_x Low),-0.66166633,-0.5527297,-0.51358795,-0.649617
+56,0.5899802241265656,2,(Angle Near 0 AND V_y High),-0.21615876,-0.16783923,-0.24729343,-0.15506175
+155,0.5868678629690048,3,((V_x Low AND V_y High) AND Angular Velocity Low),-0.17088027,-0.15777151,-0.31946528,-0.16539423
+325,0.5849889624724062,6,((((V_x High OR V_y High) OR Y Coord Far From Ground) OR X Coord Outside Wider Center) AND (NOT V_y Upward)),-0.27931735,-0.1864602,-0.16601323,-0.2929169
+278,0.5835257890685143,2,(Left Leg reach ground OR Right Leg reach ground),0.09298878,0.03186593,0.21526852,-0.04981832
+43,0.5825757575757575,5,(((V_y High OR X Coord Outside Wider Center) AND Angle Near 0) AND (NOT Right Leg reach ground)),-0.23702878,-0.16415009,-0.24676228,-0.16540709
+451,0.5819738329833629,5,((((NOT V_y High) AND Y Coord Near Ground) OR Left Leg reach ground) AND V_x Low),-0.8711745,0.1021004,-0.48577958,-0.13529831
+219,0.5809356038363672,5,((((NOT Left Leg reach ground) AND Y Coord Near Ground) AND Angle Near 0) AND V_x Low),-0.21604413,-0.39035225,-0.6419472,-0.19086477
+320,0.5735849056603773,3,((V_y High OR Y Coord Far From Ground) AND V_y Low),-0.20045531,-0.26083532,-0.26984462,-0.23853032
+57,0.5579745202386712,4,(((NOT Left Leg reach ground) AND V_y Low) AND Angular Velocity Low),-0.29652336,-0.063899666,-0.545055,-0.5772821
+108,0.5557725164754699,6,((((Left Leg reach ground OR V_y Upward) OR Angular Velocity High) AND (NOT Y Coord Far From Ground)) AND V_x Low),0.12083391,0.18901064,-0.5458182,0.048729103
+376,0.5546558704453441,5,(((Large Angle OR Y Coord Near Ground) AND (NOT Left Leg reach ground)) OR X Coord Outside Wider Center),-0.08182981,-0.18763204,-0.15478027,-0.09625401
+245,0.5538015463917526,5,(((Left Leg reach ground OR V_y Upward) AND (NOT Y Coord Far From Ground)) AND V_x Low),-0.8304662,-0.0058251047,-1.0172061,-0.26560226
+372,0.5537228302759365,6,((((NOT Right Leg reach ground) AND Angle Near 0) AND V_y Low) AND (NOT Left Leg reach ground)),-0.29769775,-0.35191685,-0.24653421,-0.011323416
+59,0.5450975863263656,6,(((((NOT Left Leg reach ground) AND V_x Low) OR V_x High) OR X Coord Outside Wider Center) OR Angular Velocity High),-0.19601673,-0.23788092,-0.034418117,-0.3703297
+351,0.5406129128235644,5,(((V_y High OR Y Coord Far From Ground) AND V_y Low) AND (NOT Left Leg reach ground)),-0.396877,-0.17743014,-0.34030265,-0.3276407
+246,0.5392057026476579,7,(((((NOT Right Leg reach ground) AND Y Coord Near Ground) AND V_y Low) AND (NOT V_y High)) AND Angle Near 0),-0.060227204,-0.10219816,-0.5277887,-0.22064498
+440,0.5359954200658366,5,(((NOT Left Leg reach ground) AND V_y Low) AND (NOT Right Leg reach ground)),-0.30519372,-0.283545,-0.26960093,-0.14268333
+130,0.5226768157310498,8,(((((NOT Right Leg reach ground) AND Angle Near 0) AND V_y Low) AND (NOT Left Leg reach ground)) AND (NOT X Coord Outside Wider Center)),-0.28768197,-0.3216986,-0.10056262,-0.17816357
+391,0.5041782729805014,7,(((((NOT Right Leg reach ground) AND Y Coord Near Ground) OR V_y High) AND Angle Near 0) AND (NOT Left Leg reach ground)),-0.18205427,-0.20064098,-0.123250805,-0.037300203
+497,0.496631899174272,5,((((V_y High OR Y Coord Near Ground) OR Large Angle) OR Angular Velocity High) OR X Coord Outside Wider Center),0.20668676,0.69571924,0.3457998,0.107717134
+488,0.495977204156889,5,(((Large Angle OR Y Coord Near Ground) AND (NOT Left Leg reach ground)) OR X Coord Outside Wider Center),-0.10961292,-0.18249676,-0.15276177,-0.17339496
+2,0.4851164161508989,5,(((NOT Left Leg reach ground) AND Angle Near 0) AND (NOT V_y Upward)),-0.508779,-0.31845802,-0.36005887,-0.4515939
+385,0.4839638157894737,3,((Angular Velocity Low OR X Coord In Center) OR Y Coord Far From Ground),0.06967204,-0.09674449,-0.34831196,0.026087226
+77,0.4822990420658059,6,((((NOT Right Leg reach ground) AND Y Coord Near Ground) AND (NOT V_y High)) AND V_x Low),-0.37308204,-0.5342611,-0.3613597,-0.57839876
+371,0.4782502144345055,3,((Angle Near 0 AND V_y Low) OR Left Leg reach ground),-0.59826714,-0.22930567,-0.1387814,-0.4396101
+164,0.4431486880466472,5,((((Angular Velocity High OR Right Leg reach ground) AND V_x Low) AND X Coord In Center) OR Right Leg reach ground),0.009627937,0.005144511,-0.29006234,-0.0070899753
+76,0.4410297345839153,6,((((Large Angle OR V_y High) OR V_x High) AND (NOT V_y Upward)) OR X Coord Outside Wider Center),-0.31672156,-0.1627099,-0.24332012,-0.3772522
+496,0.438979447200567,7,(((((NOT Left Leg reach ground) AND V_x Low) OR V_x High) AND (NOT V_y High)) OR V_x High),-0.17816757,-0.22022234,-0.37109852,-0.121699184
+435,0.437821442700778,4,((Angle Near 0 OR V_y Upward) AND (NOT Right Leg reach ground)),-0.7122824,-0.38480854,-0.7848799,-0.7388938
+78,0.4308126764982742,6,((((V_y Low AND Y Coord Near Ground) OR X Coord Outside Wider Center) AND (NOT V_y High)) OR Left Leg reach ground),-0.43547,-0.4422278,-0.4216785,-0.44264552
+251,0.4307065217391304,3,((V_y Low AND Y Coord Far From Ground) AND V_y High),-0.22257738,-0.20624664,-0.24315168,-0.23547362
+341,0.4287703016241299,7,(((((NOT Right Leg reach ground) AND Y Coord Near Ground) AND Angle Near 0) AND V_x Low) AND (NOT Left Leg reach ground)),-0.29649013,-0.22381592,-0.24474324,-0.20714056
+456,0.4264453348597596,6,((((NOT V_y High) AND (X Coord In Center AND Y Coord Near Ground)) AND Angle Near 0) OR Right Leg reach ground),0.15279688,0.10366127,0.19178826,0.11738022
+202,0.4257730289784685,6,((((NOT Right Leg reach ground) AND V_y Low) AND Angle Near 0) AND (NOT Left Leg reach ground)),-0.25275427,-0.2653288,-0.1833874,-0.24978405
+247,0.4244186046511627,6,((((NOT Right Leg reach ground) AND Left Leg reach ground) OR V_x High) AND (NOT Y Coord Far From Ground)),0.07891415,0.16260377,0.08075787,-0.092336215
+487,0.422177009155646,3,((V_y Low AND Y Coord Far From Ground) AND Angle Near 0),-0.3018676,-0.46341303,-0.27750003,-0.17767704
+112,0.4163701067615658,6,((((V_y High OR X Coord Outside Wider Center) AND Angle Near 0) AND V_x Low) AND (NOT Right Leg reach ground)),-0.25519633,-0.21907948,-0.19317676,-0.19654769
+178,0.3944687045123726,3,((V_x High AND V_y Low) AND Y Coord Far From Ground),-0.39155284,-0.27715582,-0.47498032,-0.574233
+321,0.3916739319965126,8,(((((NOT Right Leg reach ground) AND Angle Near 0) AND (NOT V_y High)) AND (NOT V_y Upward)) AND V_x Low),-0.6185186,-0.6770583,-0.6117378,-0.29565048
+413,0.3885869565217391,8,(((((NOT Right Leg reach ground) AND Angle Near 0) AND V_x Low) AND (NOT Left Leg reach ground)) AND (NOT X Coord Outside Wider Center)),-0.22379136,-0.29768986,-0.11120276,-0.16225535
+71,0.3844393592677345,2,(Right Leg reach ground AND X Coord In Center),-0.48725435,-0.05636006,-0.17783676,-0.09062591
+304,0.3835034013605442,8,(((((NOT V_y Low) AND Y Coord Near Ground) OR Large Angle) AND (NOT X Coord Outside Wider Center)) AND (NOT Left Leg reach ground)),-0.38861457,-0.3290736,-0.43019527,-0.15075208
+486,0.3806875631951466,3,((V_x Low AND V_y High) AND Angle Near 0),-0.35420483,-0.2148291,-0.5065854,-0.4029348
+404,0.3738367455463972,7,(((((NOT Right Leg reach ground) AND Y Coord Near Ground) AND V_y Low) AND Angle Near 0) AND (NOT V_y High)),-0.14229925,-0.6071766,-0.50582343,-0.50940174
+311,0.371520874751491,3,((Angle Near 0 AND Y Coord Far From Ground) OR V_x High),-0.21837507,-0.27170992,-0.11292584,-0.07639544
+160,0.3667578999751182,6,(((Large Angle OR V_y High) AND (NOT Left Leg reach ground)) AND (NOT V_y Upward)),-0.005405233,-0.38821942,-0.39167315,-0.16634353
+511,0.3656683057666517,5,(((Left Leg reach ground OR X Coord Outside Wider Center) AND V_x Low) AND (NOT Y Coord Far From Ground)),-0.2780895,-0.46693,-0.4235564,-0.51846695
+346,0.3633850407003532,5,(((Large Angle OR Y Coord Near Ground) AND (NOT Left Leg reach ground)) OR V_x High),-0.33668587,-0.28764004,-0.2676829,-0.20214966
+377,0.3572949074832159,5,(((Large Angle OR Y Coord Near Ground) AND (NOT Left Leg reach ground)) OR X Coord Outside Wider Center),-0.23844144,-0.31299475,-0.1666867,-0.14154601
+466,0.3525258011950027,5,(((Large Angle OR V_y Upward) AND (NOT Left Leg reach ground)) OR Angular Velocity High),-0.54899645,-0.21836297,-0.19810079,-0.16414292
+186,0.3498246261768507,6,((((NOT Left Leg reach ground) AND Y Coord Near Ground) OR Angular Velocity High) AND (NOT Y Coord Far From Ground)),-0.10778785,-0.21213908,-0.19395022,-0.1593693
+269,0.3441926345609065,6,((((Angular Velocity High OR Left Leg reach ground) AND V_x Low) AND (NOT Y Coord Far From Ground)) OR V_y Upward),-0.2679718,-0.7485882,-0.22989833,-0.26858243
+502,0.3398092546803249,5,((((Large Angle OR V_y High) AND Angular Velocity Low) AND V_x Low) AND V_y Low),-0.35986137,-0.28475443,-0.025685083,0.024836108
+239,0.3227083745792912,7,(((((NOT Left Leg reach ground) AND Y Coord Near Ground) AND (NOT Right Leg reach ground)) OR X Coord Outside Wider Center) AND V_y Low),-0.344337,-0.29556558,-0.3577169,-0.11541396
+388,0.3172945982750794,5,(((Angle Near 0 AND V_y High) AND (NOT X Coord Outside Wider Center)) AND Angular Velocity Low),-0.17854138,-0.21888196,-0.22965106,-0.18360917
+34,0.306184012066365,3,((V_x Low AND V_y High) AND Angle Near 0),-0.19979899,-0.036954187,-0.10486966,-0.4344358
+400,0.2657290895632864,6,(((Angular Velocity Low AND Large Angle) AND (NOT Left Leg reach ground)) AND (NOT V_y Upward)),-0.19911315,-0.23108104,-0.38641605,-0.49369848
+316,0.2520385470719051,7,(((((NOT X Coord In Center) AND Y Coord Near Ground) AND Angle Near 0) AND (NOT V_y High)) AND V_y Low),-0.24265632,-0.15453126,-0.17480922,-0.28120145
+62,0.2272047832585949,8,(((((NOT Right Leg reach ground) AND Angle Near 0) AND V_y Low) AND (NOT Y Coord Far From Ground)) AND (NOT Left Leg reach ground)),-0.33661425,-0.24869835,-0.20411201,-0.35784972
+198,0.2154471544715447,4,(((V_x Low AND V_y High) AND Y Coord Far From Ground) AND Angle Near 0),-0.16729107,-0.30815005,-0.18600428,-0.19605616
+498,0.1421850496602195,8,((((Angular Velocity High OR X Coord Outside Wider Center) AND (NOT Left Leg reach ground)) AND (NOT V_y High)) AND (NOT Right Leg reach ground)),-0.55629236,-0.6666422,-0.15782855,-0.64789265

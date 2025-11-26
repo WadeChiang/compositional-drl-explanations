@@ -1,0 +1,5 @@
+neuron,iou,feature_length,best lab,w_nothing,w_left,w_main,w_right
+2,0.705545950259343,7,((((NOT Left Leg reach ground) AND (V_x High OR V_y Low)) AND (NOT V_y Upward)) OR V_y High),-0.016851693,0.05741177,-0.046688672,-0.08582254
+1,0.6346797589823701,5,(((NOT Large Angle (right)) AND (V_y Low OR V_y Upward)) OR Large Angle (left)),0.008502955,-0.0025190325,0.015920185,-0.030482234
+3,0.6860332885350977,4,(((Angle Near 0 OR Large Angle (right)) OR X Coord Outside Wider Center) OR Right Leg reach ground),0.016941225,0.012289003,0.018277163,-0.023523103
+0,0.7151170846612166,6,((((Large Angle (right) OR Y Coord Near Ground) AND (NOT V_y High)) OR V_y Upward) OR Angular Velocity High (left)),0.019005993,2.2893095e-05,-0.009799555,-0.003693782
